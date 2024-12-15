@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_706c4248212f41ef84357aa1df40bbcb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_706c4248212f41ef84357aa1df40bbcb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_706c4248212f41ef84357aa1df40bbcb = L.map(
+                "map_706c4248212f41ef84357aa1df40bbcb",
+                {
+                    center: [34.0522, -118.2437],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4c1464fe47410595923e268a0d644240 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4c1464fe47410595923e268a0d644240.addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+            var circle_marker_1681eacd30b772f4091e7245d4f44d43 = L.circleMarker(
+                [33.9829, -118.3187],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.3415, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_7b86aafec729bad3472b8e670ed7f3b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f6ba7bc9b5e9f7a9d9ff2e6422091b7 = $(`<div id="html_4f6ba7bc9b5e9f7a9d9ff2e6422091b7" style="width: 100.0%; height: 100.0%;">Área: 77th Street<br>Crímenes: 12683</div>`)[0];
+                popup_7b86aafec729bad3472b8e670ed7f3b9.setContent(html_4f6ba7bc9b5e9f7a9d9ff2e6422091b7);
+            
+        
+
+        circle_marker_1681eacd30b772f4091e7245d4f44d43.bindPopup(popup_7b86aafec729bad3472b8e670ed7f3b9)
+        ;
+
+        
+    
+    
+            var circle_marker_adab52ba47179f9f3cd7224e246e9576 = L.circleMarker(
+                [34.0396, -118.2726],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.623999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_d854dc553eaf68969379266c4e72c335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_465e4fc724881aa7675cfd0dcd2a506b = $(`<div id="html_465e4fc724881aa7675cfd0dcd2a506b" style="width: 100.0%; height: 100.0%;">Área: Central<br>Crímenes: 15248</div>`)[0];
+                popup_d854dc553eaf68969379266c4e72c335.setContent(html_465e4fc724881aa7675cfd0dcd2a506b);
+            
+        
+
+        circle_marker_adab52ba47179f9f3cd7224e246e9576.bindPopup(popup_d854dc553eaf68969379266c4e72c335)
+        ;
+
+        
+    
+    
+            var circle_marker_ac04974e071c818860fc7e8d12f502f6 = L.circleMarker(
+                [34.25, -118.599],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.3195, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_748726d6365541f378e62a825e36a63f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff9f21b28f3fad633cd193ab4fdf988f = $(`<div id="html_ff9f21b28f3fad633cd193ab4fdf988f" style="width: 100.0%; height: 100.0%;">Área: Devonshire<br>Crímenes: 8639</div>`)[0];
+                popup_748726d6365541f378e62a825e36a63f.setContent(html_ff9f21b28f3fad633cd193ab4fdf988f);
+            
+        
+
+        circle_marker_ac04974e071c818860fc7e8d12f502f6.bindPopup(popup_748726d6365541f378e62a825e36a63f)
+        ;
+
+        
+    
+    
+            var circle_marker_927118b38882e957fa9e24bb835a1a01 = L.circleMarker(
+                [34.2135, -118.379],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.2045, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_1461de25d60f1a648d749682218e6160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6de8d1a2326910fd5927fbc16e869e3e = $(`<div id="html_6de8d1a2326910fd5927fbc16e869e3e" style="width: 100.0%; height: 100.0%;">Área: Foothill<br>Crímenes: 6409</div>`)[0];
+                popup_1461de25d60f1a648d749682218e6160.setContent(html_6de8d1a2326910fd5927fbc16e869e3e);
+            
+        
+
+        circle_marker_927118b38882e957fa9e24bb835a1a01.bindPopup(popup_1461de25d60f1a648d749682218e6160)
+        ;
+
+        
+    
+    
+            var circle_marker_bd901590b50fe6e9f7fb80b0bfbd0ef5 = L.circleMarker(
+                [33.7478, -118.3043],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.1015, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_7dfdbe3fc13583e62306742ba5d07b1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_421d6a949eaf85f04df44a2cf7eca133 = $(`<div id="html_421d6a949eaf85f04df44a2cf7eca133" style="width: 100.0%; height: 100.0%;">Área: Harbor<br>Crímenes: 8203</div>`)[0];
+                popup_7dfdbe3fc13583e62306742ba5d07b1c.setContent(html_421d6a949eaf85f04df44a2cf7eca133);
+            
+        
+
+        circle_marker_bd901590b50fe6e9f7fb80b0bfbd0ef5.bindPopup(popup_7dfdbe3fc13583e62306742ba5d07b1c)
+        ;
+
+        
+    
+    
+            var circle_marker_f66167b951c7f97afc39c86e433257bc = L.circleMarker(
+                [34.0796, -118.1749],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.8065, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_473d7349d5322cd2fd215d9f2ac6c017 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80546015d547b3d24280f68f41773ad7 = $(`<div id="html_80546015d547b3d24280f68f41773ad7" style="width: 100.0%; height: 100.0%;">Área: Hollenbeck<br>Crímenes: 7613</div>`)[0];
+                popup_473d7349d5322cd2fd215d9f2ac6c017.setContent(html_80546015d547b3d24280f68f41773ad7);
+            
+        
+
+        circle_marker_f66167b951c7f97afc39c86e433257bc.bindPopup(popup_473d7349d5322cd2fd215d9f2ac6c017)
+        ;
+
+        
+    
+    
+            var circle_marker_bdb3ec17a6c657f7cc3d183c7408dc1a = L.circleMarker(
+                [34.0981, -118.3092],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.131499999999999, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_73eaa8154fe6b270ad7c38e86d7dd816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1f02d554179ae961dfa3989dda1df7c = $(`<div id="html_f1f02d554179ae961dfa3989dda1df7c" style="width: 100.0%; height: 100.0%;">Área: Hollywood<br>Crímenes: 10263</div>`)[0];
+                popup_73eaa8154fe6b270ad7c38e86d7dd816.setContent(html_f1f02d554179ae961dfa3989dda1df7c);
+            
+        
+
+        circle_marker_bdb3ec17a6c657f7cc3d183c7408dc1a.bindPopup(popup_73eaa8154fe6b270ad7c38e86d7dd816)
+        ;
+
+        
+    
+    
+            var circle_marker_ea8cba4cdf1bfe117237441fd38c8578 = L.circleMarker(
+                [34.2166, -118.4403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.038499999999999, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_d4ee0a83151f1ff33f82c93040c001c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66f2c9d6970e8240cda7b7d668588a93 = $(`<div id="html_66f2c9d6970e8240cda7b7d668588a93" style="width: 100.0%; height: 100.0%;">Área: Mission<br>Crímenes: 8077</div>`)[0];
+                popup_d4ee0a83151f1ff33f82c93040c001c7.setContent(html_66f2c9d6970e8240cda7b7d668588a93);
+            
+        
+
+        circle_marker_ea8cba4cdf1bfe117237441fd38c8578.bindPopup(popup_d4ee0a83151f1ff33f82c93040c001c7)
+        ;
+
+        
+    
+    
+            var circle_marker_c64d6251b12371e33096a4e9a4290308 = L.circleMarker(
+                [34.1797, -118.4014],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.117, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_dec40a0ba5165b2791268e374a3ab47e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fd79a6b1d17c0294b6defabf717d5af = $(`<div id="html_1fd79a6b1d17c0294b6defabf717d5af" style="width: 100.0%; height: 100.0%;">Área: N Hollywood<br>Crímenes: 10234</div>`)[0];
+                popup_dec40a0ba5165b2791268e374a3ab47e.setContent(html_1fd79a6b1d17c0294b6defabf717d5af);
+            
+        
+
+        circle_marker_c64d6251b12371e33096a4e9a4290308.bindPopup(popup_dec40a0ba5165b2791268e374a3ab47e)
+        ;
+
+        
+    
+    
+            var circle_marker_acdb84472207de77d2a135ff94bf6967 = L.circleMarker(
+                [33.9997, -118.2652],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.443999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_6f764b26855ca4a4eaf71ffdd76cd9a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd88fb916ffe913a49b8ac2d4f8f991a = $(`<div id="html_cd88fb916ffe913a49b8ac2d4f8f991a" style="width: 100.0%; height: 100.0%;">Área: Newton<br>Crímenes: 10888</div>`)[0];
+                popup_6f764b26855ca4a4eaf71ffdd76cd9a0.setContent(html_cd88fb916ffe913a49b8ac2d4f8f991a);
+            
+        
+
+        circle_marker_acdb84472207de77d2a135ff94bf6967.bindPopup(popup_6f764b26855ca4a4eaf71ffdd76cd9a0)
+        ;
+
+        
+    
+    
+            var circle_marker_0a68542773b49042b150f1345aebc114 = L.circleMarker(
+                [34.1054, -118.2889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.385, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_08bb74f9bf8e52ccb9daf8b0c337c503 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dc7a6c94c6dd05b555b4bd61aeb0409 = $(`<div id="html_9dc7a6c94c6dd05b555b4bd61aeb0409" style="width: 100.0%; height: 100.0%;">Área: Northeast<br>Crímenes: 8770</div>`)[0];
+                popup_08bb74f9bf8e52ccb9daf8b0c337c503.setContent(html_9dc7a6c94c6dd05b555b4bd61aeb0409);
+            
+        
+
+        circle_marker_0a68542773b49042b150f1345aebc114.bindPopup(popup_08bb74f9bf8e52ccb9daf8b0c337c503)
+        ;
+
+        
+    
+    
+            var circle_marker_5721d2e7866b2388ec36b968a9dfe66d = L.circleMarker(
+                [34.0672, -118.2941],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.249500000000001, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_c49e160e9b4ce36a9b74f0ed8c35a4c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_473a80a0b4423cb496176702c4029e70 = $(`<div id="html_473a80a0b4423cb496176702c4029e70" style="width: 100.0%; height: 100.0%;">Área: Olympic<br>Crímenes: 10499</div>`)[0];
+                popup_c49e160e9b4ce36a9b74f0ed8c35a4c3.setContent(html_473a80a0b4423cb496176702c4029e70);
+            
+        
+
+        circle_marker_5721d2e7866b2388ec36b968a9dfe66d.bindPopup(popup_c49e160e9b4ce36a9b74f0ed8c35a4c3)
+        ;
+
+        
+    
+    
+            var circle_marker_f15fb03a9917b757773780a5b229827b = L.circleMarker(
+                [34.029, -118.4031],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.163, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_d7dcf05305f162baf84547dc47e46fba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb6aed3554a76c9e711640fbb658b9cd = $(`<div id="html_fb6aed3554a76c9e711640fbb658b9cd" style="width: 100.0%; height: 100.0%;">Área: Pacific<br>Crímenes: 12326</div>`)[0];
+                popup_d7dcf05305f162baf84547dc47e46fba.setContent(html_fb6aed3554a76c9e711640fbb658b9cd);
+            
+        
+
+        circle_marker_f15fb03a9917b757773780a5b229827b.bindPopup(popup_d7dcf05305f162baf84547dc47e46fba)
+        ;
+
+        
+    
+    
+            var circle_marker_58f409deacb8177c66528713d8594536 = L.circleMarker(
+                [34.0539, -118.2712],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.211, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_73b4a99db695cf75519e93957eeaa709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32d5ed4b46b89d3b91d205e474f9480e = $(`<div id="html_32d5ed4b46b89d3b91d205e474f9480e" style="width: 100.0%; height: 100.0%;">Área: Rampart<br>Crímenes: 10422</div>`)[0];
+                popup_73b4a99db695cf75519e93957eeaa709.setContent(html_32d5ed4b46b89d3b91d205e474f9480e);
+            
+        
+
+        circle_marker_58f409deacb8177c66528713d8594536.bindPopup(popup_73b4a99db695cf75519e93957eeaa709)
+        ;
+
+        
+    
+    
+            var circle_marker_cc08d63d5a8c48606e85d070c0d74902 = L.circleMarker(
+                [33.9309, -118.2604],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.192, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_ab88861c4077afb2447183d30470fc50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8f0ff50003ffa415dbc8e8703a21596 = $(`<div id="html_f8f0ff50003ffa415dbc8e8703a21596" style="width: 100.0%; height: 100.0%;">Área: Southeast<br>Crímenes: 10384</div>`)[0];
+                popup_ab88861c4077afb2447183d30470fc50.setContent(html_f8f0ff50003ffa415dbc8e8703a21596);
+            
+        
+
+        circle_marker_cc08d63d5a8c48606e85d070c0d74902.bindPopup(popup_ab88861c4077afb2447183d30470fc50)
+        ;
+
+        
+    
+    
+            var circle_marker_4cc112224cc03b549c77213b4c8d8d9d = L.circleMarker(
+                [34.0256, -118.3429],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.9515, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_a2e90c0cf7c205c1d7440a49d29a4271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65b48cf3931cb451ea14d29956a4d6e5 = $(`<div id="html_65b48cf3931cb451ea14d29956a4d6e5" style="width: 100.0%; height: 100.0%;">Área: Southwest<br>Crímenes: 11903</div>`)[0];
+                popup_a2e90c0cf7c205c1d7440a49d29a4271.setContent(html_65b48cf3931cb451ea14d29956a4d6e5);
+            
+        
+
+        circle_marker_4cc112224cc03b549c77213b4c8d8d9d.bindPopup(popup_a2e90c0cf7c205c1d7440a49d29a4271)
+        ;
+
+        
+    
+    
+            var circle_marker_1cb472b314c42e3960c718d74b5364fb = L.circleMarker(
+                [34.2138, -118.5951],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.3205, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_1bc0ab8bcc94852a65c85794622e31b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2feec51d65dabb3df13f85ec7dfada09 = $(`<div id="html_2feec51d65dabb3df13f85ec7dfada09" style="width: 100.0%; height: 100.0%;">Área: Topanga<br>Crímenes: 8641</div>`)[0];
+                popup_1bc0ab8bcc94852a65c85794622e31b0.setContent(html_2feec51d65dabb3df13f85ec7dfada09);
+            
+        
+
+        circle_marker_1cb472b314c42e3960c718d74b5364fb.bindPopup(popup_1bc0ab8bcc94852a65c85794622e31b0)
+        ;
+
+        
+    
+    
+            var circle_marker_f445613ab0c19f762b7a41ea43199e5a = L.circleMarker(
+                [34.1522, -118.4138],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.469999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_eae7c516bc0c5ffd561764abff55aad6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b677a4aff193c94f77a6b38020f8de18 = $(`<div id="html_b677a4aff193c94f77a6b38020f8de18" style="width: 100.0%; height: 100.0%;">Área: Van Nuys<br>Crímenes: 8940</div>`)[0];
+                popup_eae7c516bc0c5ffd561764abff55aad6.setContent(html_b677a4aff193c94f77a6b38020f8de18);
+            
+        
+
+        circle_marker_f445613ab0c19f762b7a41ea43199e5a.bindPopup(popup_eae7c516bc0c5ffd561764abff55aad6)
+        ;
+
+        
+    
+    
+            var circle_marker_a2d8542317b4e1794819894a1290e11d = L.circleMarker(
+                [34.033, -118.4324],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.7645, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_1e5d535a190bfb6eccb6c65647532eab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_112d016d2e5828f413d55befcbbb6325 = $(`<div id="html_112d016d2e5828f413d55befcbbb6325" style="width: 100.0%; height: 100.0%;">Área: West LA<br>Crímenes: 9529</div>`)[0];
+                popup_1e5d535a190bfb6eccb6c65647532eab.setContent(html_112d016d2e5828f413d55befcbbb6325);
+            
+        
+
+        circle_marker_a2d8542317b4e1794819894a1290e11d.bindPopup(popup_1e5d535a190bfb6eccb6c65647532eab)
+        ;
+
+        
+    
+    
+            var circle_marker_c9c25fe968d3cf97bbf5e264529eba70 = L.circleMarker(
+                [34.2193, -118.5415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4925, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_012eeb1970f68b5a74944aac4a15189b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9472a7b8b78f76922e1669fcd4e4b913 = $(`<div id="html_9472a7b8b78f76922e1669fcd4e4b913" style="width: 100.0%; height: 100.0%;">Área: West Valley<br>Crímenes: 8985</div>`)[0];
+                popup_012eeb1970f68b5a74944aac4a15189b.setContent(html_9472a7b8b78f76922e1669fcd4e4b913);
+            
+        
+
+        circle_marker_c9c25fe968d3cf97bbf5e264529eba70.bindPopup(popup_012eeb1970f68b5a74944aac4a15189b)
+        ;
+
+        
+    
+    
+            var circle_marker_251c349a703aabe6bae573bfd9cf06ac = L.circleMarker(
+                [34.047, -118.337],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.248000000000001, "stroke": true, "weight": 3}
+            ).addTo(map_706c4248212f41ef84357aa1df40bbcb);
+        
+    
+        var popup_e05207fbd1cde635b9356448daf398eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8945a0160c86bd5be466589b29b7d898 = $(`<div id="html_8945a0160c86bd5be466589b29b7d898" style="width: 100.0%; height: 100.0%;">Área: Wilshire<br>Crímenes: 10496</div>`)[0];
+                popup_e05207fbd1cde635b9356448daf398eb.setContent(html_8945a0160c86bd5be466589b29b7d898);
+            
+        
+
+        circle_marker_251c349a703aabe6bae573bfd9cf06ac.bindPopup(popup_e05207fbd1cde635b9356448daf398eb)
+        ;
+
+        
+    
+</script>
+</html>
